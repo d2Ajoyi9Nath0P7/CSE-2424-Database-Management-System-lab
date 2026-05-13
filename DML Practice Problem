@@ -1,0 +1,70 @@
+1. Insert a Single Record
+Write a SQL query to insert a single record into a table.
+
+
+
+2. Insert Multiple Records
+Write a SQL query to insert multiple records into a table in a single operation.
+
+
+3. Update a Single Record
+Write a SQL query to update a single record in a table based on a specific condition.
+
+
+
+4. Update Multiple Records
+Write a SQL query to update multiple records in a table based on a specific condition.
+
+
+
+5. Delete a Single Records
+Write a SQL query to delete a single record from a table based on a specific condition.
+
+
+
+6. Delete Multiple Records
+Write a SQL query to delete multiple records from a table based on a specific condition.
+
+
+
+7. Insert with Default Values
+Write a SQL query to insert a record into a table with default values for unspecified columns.
+
+
+
+8. Update using Subquery
+Write a SQL query to update records in a table using a subquery to determine the condition.
+
+
+
+9. Delete using Subquery
+Write a SQL query to delete records from a table using a subquery to determine the condition.
+
+
+
+10. Insert from another Table
+Write a SQL query to copy data from one table into another table.
+
+
+
+11. Update with CASE Statement
+Write a SQL query to update records in a table using conditional logic with a CASE statement.
+
+
+
+12. Delete All Records
+Write a SQL query to delete all records from a table.
+
+
+
+13. Insert with Auto-Increment
+Write a SQL query to insert a record into a table where the primary key is auto-generated.Programming
+
+
+14. Update and Reset a Column
+Write a SQL query to reset the value of a specific column to NULL for all rows in a table.
+
+
+
+15. Delete with JOIN
+Write a SQL query to delete records from one table based on a condition derived from a related table using a JOIN.
