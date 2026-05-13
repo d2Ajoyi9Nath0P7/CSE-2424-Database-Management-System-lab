@@ -1,0 +1,92 @@
+1. Writing Efficient Queries by Avoiding Unnecessary Joins
+Write a SQL query to retrieve data without unnecessary joins.
+
+
+2. Using Indexes to Improve Query Performance
+Write a SQL query to create an index on a frequently queried column.
+
+
+3. Analyzing Query Execution Plans
+Write a SQL query to analyze the execution plan of a query.
+
+
+
+4. Avoiding SELECT * for Better Performance
+Write a SQL query to retrieve only specific columns instead of using SELECT.
+
+
+
+5. Using Covering Indexes for Faster Queries
+Write a SQL query to create a covering index for a query.
+
+
+
+6. Optimizing Queries with WHERE Clauses
+Write a SQL query to optimize filtering with a WHERE clause.
+
+
+7. Using EXISTS Instead of IN for Subqueries
+Write a SQL query to replace IN with EXISTS for better performance.
+
+
+8. Partitioning Large Tables for Improved Performance
+Write a SQL query to partition a large table.
+
+
+
+9. Updating Statistics for Query Optimization
+Write a SQL query to update statistics for a table.
+
+
+
+10. Using Temporary Tables for Intermediate Results
+Write a SQL query to use a temporary table for intermediate results.
+
+
+11. Using Query Hints for Performance Optimization
+Write a SQL query to use query hints to optimize performance.
+
+
+
+12. Optimizing Queries with Window Functions
+Write a SQL query to replace self-joins with window functions for better performance.
+
+
+
+13. Reducing Lock Contention with NOLOCK Hint
+Write a SQL query to use the NOLOCK hint to reduce lock contention.Programming
+
+
+
+14. Optimizing Aggregations with Indexed Views
+Write a SQL query to create an indexed view for faster aggregations.
+
+
+
+15. Using Parameterized Queries to Prevent Re-compilation
+Write a SQL query to use parameterized queries for consistent execution plans.
+
+
+
+16. Optimizing Joins with Proper Indexing
+Write a SQL query to optimize joins by ensuring proper indexing.
+
+
+
+17. Using Stored Procedures for Query Reuse
+Write a SQL stored procedure to encapsulate and reuse a frequently executed query.
+
+
+
+18. Optimizing Bulk Inserts with Minimal Logging
+Write a SQL query to perform a bulk insert with minimal logging.
+
+
+
+19. Using Compression to Reduce Storage and Improve I/O
+Write a SQL query to enable data compression for a table.
+
+
+
+20. Analyzing Wait Statistics for Bottleneck Identification
+Write a SQL query to analyze wait statistics for identifying performance bottlenecks.
