@@ -1,9 +1,81 @@
+
+
+-- 1. Customer balance Table
+CREATE TABLE CUSTOMER_BALANCE (
+    account_no VARCHAR2(11) PRIMARY KEY,
+    current_balance NUMBER(10, 2)
+);
+
+-- 2. Transaction Log Table
+CREATE TABLE TRANSACTION_LOG (
+    trx_id NUMBER PRIMARY KEY,
+    account_no VARCHAR2(11),
+    amount NUMBER(10, 2),
+    trx_type VARCHAR2(20)
+);
+
+INSERT INTO CUSTOMER_BALANCE(account_no,current_balance)
+VALUES ('01711223344',2000.00);
+
+COMMIT; --save data
+
+
+
 1. Insert Data in a Transaction
 Write a SQL query to insert data into multiple tables within a transaction, rolling back if any part fails.
 
 
+BEGIN
+    --let say a user cashout 500 tk from his bksh account
+
+    UPDATE CUSTOMER_BALANCE
+    SET current_balance = current_balance - 500
+    WHERE account_no = '01711223344';
+
+    --INSERT IN LOG TABLE
+    INSERT INTO TRANSACTION_LOG (trx_id, account_no, amount, trx_type)
+    VALUES (5001, '01711223344', 500, 'CASH_OUT');
+
+    -COMMIT;
+    DBMS_OUTPUT.PUT_LINE('Transaction Success: Balance updated and Logged.');
+
+
+EXCEPTION 
+    WHEN OTHERS THEN
+    ROLLBACK;
+    DBMS_OUTPUT.PUT_LINE('Transaction Failed: Rolled back everything.');
+  
+END;
+/
+code : https://ideone.com/DSwSaI
+
+
+
+
+
 2. Demonstrate Isolation Level READ COMMITTED
-Write a SQL query to demonstrate the READ COMMITTED isolation level.
+Write a SQL query to demonstrate the 'READ COMMITTED' isolation level.
+
+
+--Windows A
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+
+UPDATE CUSTOMER_BALANCE
+SET current_balance = current_balance + 500
+WHERE account_no = '01711223344';
+
+--NOT COMMITE YET
+
+
+
+--WINDOW B
+SELECT current_balance
+FROM CUSTOMER_BALANCE
+WHERE account_no = '01711223344'
+
+
+
+
 
 
 
