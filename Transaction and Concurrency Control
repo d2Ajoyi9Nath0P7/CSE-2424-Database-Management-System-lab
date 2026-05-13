@@ -1,0 +1,69 @@
+1. Insert Data in a Transaction
+Write a SQL query to insert data into multiple tables within a transaction, rolling back if any part fails.
+
+
+2. Demonstrate Isolation Level READ COMMITTED
+Write a SQL query to demonstrate the READ COMMITTED isolation level.
+
+
+
+3. Demonstrate Isolation Level SERIALIZABLE
+Write a SQL query to demonstrate the SERIALIZABLE isolation level.
+
+
+
+4. Rollback a Failed Transaction
+Write a SQL query to rollback a transaction if an error occurs during execution.
+
+
+
+
+
+5. Demonstrate Isolation Level REPEATABLE READ
+Write a SQL query to demonstrate the REPEATABLE READ isolation level.
+
+
+
+
+6. Savepoints in Transactions
+Write a SQL script that uses savepoints to partially roll back a transaction.
+
+
+
+7. Locking Hints
+Write a SQL query to insert a record into a table with default values for unspecified columns.
+
+
+
+
+8. Nested Transactions
+Write a SQL script to demonstrate nested transactions.
+
+
+
+9. Handling Long-Running Transactions
+Write a SQL script to handle a long-running transaction with periodic commits.
+
+
+
+10. Using TRY...CATCH for Error Handling
+Write a SQL script that uses TRY...CATCH to handle errors in a transaction.
+
+
+11. Optimistic Concurrency Control
+Write a SQL script to implement optimistic concurrency control.
+
+
+
+12. Snapshot Isolation Level
+Write a SQL query to demonstrate the use of the SNAPSHOT isolation level.
+
+
+
+13. Monitoring Transactions
+Write a SQL query to monitor active transactions in the  database.
+
+
+
+14. Distributed Transactions
+Write a SQL script to demonstrate a distributed transaction using MSDTC (Microsoft Distributed Transaction Coordinator)
